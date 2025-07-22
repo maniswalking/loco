@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+      overflow: visible;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide .cont {
+      display: block;
+      width: 100%;
+      height: 500px;
+      position: relative;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+    .swiper-slide .cont::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      /* background: rgba(0,0,0, 0.6); */
+      background: #173A2BB3;
+      z-index: 2;
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .swiper-slide .cont img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: blur(0px);
+      transition: filter 0.3s ease-in-out;
+    }
+    .swiper-slide .cont .text-box {
+      width: 100%;
+      padding: 30px;
+      position: absolute;
+      color: #fff;
+      left: 0;
+      bottom: 0;
+      z-index: 999;
+      transform: translateY(calc(100% + -150px));
+      transition: transform 0.5s;
+    }
+    .swiper-slide .cont:hover::before {
+      opacity: 1;
+    }
+    .swiper-slide .cont:hover img {
+      filter: blur(10px);
+    }
+    .swiper-slide .cont:hover .text-box {
+      transform: translateY(0);
+    }
+    .swiper-slide .cont .text-box h3 {
+      width: 100%;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+    }
+    .swiper-slide .cont .text-box p.info {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      margin-top: 16px;
+    }
+    .swiper-slide .cont .text-box p.exp {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="swiper container mid-slides">
+      <div class="swiper-wrapper slide-box">
+        <div class="swiper-slide slide-item">
+          <a href="#none" class="cont">
+            <div class="img-box">
+              <img src="./images/mid-slider-1.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <h3>TERAROSA<br>테라로사 커피</h3>
+              <p class="info">강원도 강릉시 구정면<br>오픈 10시 - 마감 22시</p>
+              <p class="exp">
+                테라로사는 아름다운 문화와 자연 유산을 가진 강릉에서 2002년
+                작은 커피 로스터리로 시작했습니다.<br />테라로사는 스페셜티
+                커피의 선구자로서 비전과 미션을 가지고 테라로사만의 철학을
+                가지고 있습니다.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#none" class="cont">
+            <div class="img-box">
+              <img src="./images/mid-slider-1.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <h3>빈투바 로스터리</h3>
+              <p class="info">경기도 용인시 처인구 부곡로 140<br>오픈 10시 - 마감 22시</p>
+              <p class="exp">
+                빈투바 로스터리는 커피의 처음부터 끝까지 최선을 다하는
+                로스터리 입니다.<br />18년 경력의 로스터가 한잔의 커피를 위해
+                로스팅 합니다.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#none" class="cont">
+            <div class="img-box">
+              <img src="./images/mid-slider-1.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <h3>FOREMOST<br>폴모스트</h3>
+              <p class="info">경상북도 안동시 암산1길 15<br>오픈 11시 - 마감 21시</p>
+              <p class="exp">
+                폴모스트는 경북 안동에 뿌리를 두고, 지역과 함께 성장하며
+                세계로 나아가는 카페 브랜드입니다.<br>저희는 신선한 원두를 직접
+                로스팅하고, 품질 높은 베이커리와 디저트를 제공하며 고객에게
+                특별한 경험을 선사하고자 합니다.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#none" class="cont">
+            <div class="img-box">
+              <img src="./images/mid-slider-1.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <h3>FAR BEN<br>카페 파벤</h3>
+              <p class="info">서울시 성동구 성수이로 65<br>오픈 9시 - 마감 22시</p>
+              <p class="exp">
+                저희는 성수역 3번 출구 인근에 위치한 카페 파벤입니다.<br>코지한 무드의 인테리어와 시그니처 커피를 비롯한에스프레소 기반의 커피 메뉴를 제조하며 판매하고 있습니다.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#none" class="cont">
+            <div class="img-box">
+              <img src="./images/mid-slider-1.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <h3>Brewers<br>브루어스커피</h3>
+              <p class="info">서울시 성동구 성수이로 65<br>오픈 9시 - 마감 22시</p>
+              <p class="exp">
+                브루어스커피는 블랙을 시그니처 컬러로 사용해 공백이자 합이 될
+                수 있는 공간을 선보입니다. 비어있기에 어떤 곳이든 될 수 있으며, 함께이기에 형성되는 자연스러운 문화 공간입니다.<br />브루어스커피는
+                카페 영역 이외에도 굿즈 제작, 팝업 활동, 콜라보레이션을
+                진행하고 있으며, 다양한 활동들로 다양한 사람들을 만나고
+                소통하며 함께 융화되는 과정을 가장 중요시 여깁니다.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#none" class="cont">
+            <div class="img-box">
+              <img src="./images/mid-slider-1.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <h3>Brewers<br>브루어스커피</h3>
+              <p class="info">충청남도 천안시 동남구 먹거리9길 20<br>오픈 11시 - 마감 20시</p>
+              <p class="exp">
+                브루어스커피는 블랙을 시그니처 컬러로 사용해 공백이자 합이 될
+                수 있는 공간을 선보입니다. 비어있기에 어떤 곳이든 될 수 있으며, 함께이기에 형성되는 자연스러운 문화 공간입니다.<br />브루어스커피는
+                카페 영역 이외에도 굿즈 제작, 팝업 활동, 콜라보레이션을
+                진행하고 있으며, 다양한 활동들로 다양한 사람들을 만나고
+                소통하며 함께 융화되는 과정을 가장 중요시 여깁니다.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+</script>
+</body>
+
+</html>

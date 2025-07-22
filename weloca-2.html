@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCO | Local Coffee & Beans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Chewy&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/weloca-2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eafcf9ecf2.js" crossorigin="anonymous"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/weloca-common.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="header container">
+            <h1 class="logo">
+                <a href="index.html"><img src="./images/loco-logo.svg" alt="LOCO-logo"></a>
+            </h1>
+            <nav class="gnb">
+                <ul class="main-menu">
+                    <li>
+                        <button>LOCO</button>
+                        <ul class="sub-menu" >
+                            <li><a href="#">위클리 LOCO</a></li>
+                            <li><a href="#">위클리 카페인</a></li>
+                            <li><a href="#">원두 이야기</a></li>
+                            <li><a href="#">홈카페인</a></li>
+                        </ul>
+                    </li>
+                    <li><button>weLOCO</button>
+                        <ul class="sub-menu">
+                            <li><a href="">카페인 이야기</a></li>
+                            <li><a href="">로컬카페 이야기</a></li>
+                        </ul>
+                    </li>
+                    <li><button>weLOCA</button>
+                        <ul class="sub-menu">
+                            <li><a href="weloca-1.html">우리동네카페 GO</a></li>
+                            <li><a href="">전국동네카페 GO</a></li>
+                        </ul>
+                    </li>
+                    <li><button>지역원두구독</button>
+                        <ul class="sub-menu">
+                            <li><a href="">인기원두</a></li>
+                            <li><a href="">커피샘플러</a></li>
+                            <li><a href="">지역카페원두구독</a></li>
+                            <li><a href="">지역카페구독패스</a></li>
+                            <li><a href="">LOCO 스페셜티</a></li>
+                        </ul>
+                    </li>
+                    <li><button>지역카페투어</button>
+                        <ul class="sub-menu">
+                            <li><a href="">가상투어</a></li>
+                            <li><a href="">현장투어</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>            
+            <ul class="user-menu">
+                <li>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+            </ul>
+            <a href="#" class="nav-toggleBtn"><i class="fa-solid fa-burger"></i></a>
+            <div class="nav-toggleBg"><a href="#" class="closeBtn"><i class="fa-solid fa-xmark"></i></a></div>
+        </div>
+    </header>
+
+    <!-- //header -->
+        
+    <!-- main -->
+    <section class="area-content">
+        <div class="page-index container">
+            <span>weLOCA</span>
+            <span>우리동네카페 GO</span>
+            <span>침산동</span>
+            <p class="page-name">weLOCA</p>
+        </div>
+        <article class="nearby container">                
+            <h2 class="title">우리동네카페 GO</h2>
+            <div class="area-select">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1921.990894089641!2d128.58926919053883!3d35.88845046175553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e1006a7258cf%3A0x299660aec792d48a!2z7ZSE66CM642w66CI67Kg7J206riA!5e0!3m2!1sko!2skr!4v1738979381395!5m2!1sko!2skr" width="100%" height="100%" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="primary"><a href="./weloca-1.html">지묘동</a></div>
+                <div class="secondary selected"><a href="./weloca-2.html">침산동</a></div>
+            </div>
+            <div class="cafe-list">
+                <div class="control-btn">
+                    <button type="button" class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button type="button" class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="slide-group">
+                    <ul class="slide-box">
+                        <li class="slide1">
+                            <a href="#">
+                                <p class="description">
+                                    커피와 어울리는<br>
+                                    베이커리가 준비 되어 있는
+                                </p>
+                                <p class="location">
+                                    로비아네
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>08:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>20:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-available">원두 구독 가능</div>
+                                <div class="op2-available">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide2">
+                            <a href="#">
+                                <p class="description">
+                                    고소한 샌드위치와<br>
+                                    맛있는 커피의 조화
+                                </p>
+                                <p class="location">
+                                    올리버
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>11:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>20:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-available">원두 구독 가능</div>
+                                <div class="op2-unavailable">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide3">
+                            <a href="#">
+                                <p class="description">
+                                    바닐라라떼의<br>
+                                    달콤한 마법
+                                </p>
+                                <p class="location">
+                                    OLDCASTLE
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>10:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>18:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-unavailable">원두 구독 가능</div>
+                                <div class="op2-available">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide4">
+                            <a href="#">
+                                <p class="description">
+                                    맛있는 디저트와<br>
+                                    음료의 환상 조합
+                                </p>
+                                <p class="location">
+                                    리시트
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>09:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>22:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-available">원두 구독 가능</div>
+                                <div class="op2-unavailable">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide5">
+                            <a href="#">
+                                <p class="description">
+                                    맛있는 커피와 디저트를<br>
+                                    즐기는 편안한 공간
+                                </p>
+                                <p class="location">
+                                    플라츠커피
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>10:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>21:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-available">원두 구독 가능</div>
+                                <div class="op2-available">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide6">
+                            <a href="#">
+                                <p class="description">
+                                    넓은 공간에서 즐기는<br>
+                                    맛있는 커피와 디저트
+                                </p>
+                                <p class="location">
+                                    레스트커피룸
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>11:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>22:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-available">원두 구독 가능</div>
+                                <div class="op2-unavailable">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide7">
+                            <a href="#">
+                                <p class="description">
+                                    침산동에 아침 일찍<br>
+                                    오픈하는 카페
+                                </p>
+                                <p class="location">
+                                    유우커피플레이스
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>10:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>18:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-unavailable">원두 구독 가능</div>
+                                <div class="op2-available">정기 패스 가능</div>
+                            </div>
+                        </li>
+                        <li class="slide8">
+                            <a href="#">
+                                <p class="description">
+                                    다양한 맛으로<br>
+                                    매번 새로운 경험
+                                </p>
+                                <p class="location">
+                                    마망까페
+                                </p>
+                            </a>
+                            <div class="service">open</div>
+                            <div class="hour">
+                                <div class="time">
+                                    <p>open</p>
+                                    <p>10:00</p>
+                                </div>
+                                <div class="time">
+                                    <p>close</p>
+                                    <p>20:00</p>
+                                </div>
+                            </div>
+                            <div class="special">
+                                <div class="op1-available">원두 구독 가능</div>
+                                <div class="op2-unavailable">정기 패스 가능</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>                
+        </article>
+    </section>
+    <section class="thread container">
+        <h2 class="title">침산동 카페 이야기</h2>
+        <div class="thread-wrap">
+            <article class="latest-threads">
+                <h3>우리 동네 카페 최신글</h3>                    
+                <div class="content-group">
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="coffeelife">커피와 일상</button>
+                            <span class="date">2024-12-22</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">하트커피 - 온두라스 벤자민 파즈 라 살사 에어룸 워시드</p>
+                            <p class="cont">
+                                첫맛부터 은은함과 달달한 딱딱한 복숭아 느낌으로 거기에 뒷받치는 약간의 박과류의 부드러움 질감 <br>
+                                중후반부부터 약간 플로럴한 산미톤이 느껴지면서 깔끔한 차를 마시는 듯한 클린함이 느껴지지만 <br>
+                                은은함과 여운감같은 느낌이 없어 티라이크하다라고 생각되지는 않으며 <br>
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">코리아커피</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="coffeebean">커피원두</button>
+                            <span class="date">2025-1-2</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">스윗니스커피랩 - 파나마 핀카 누구오 게이샤 427 내추럴</p>
+                            <p class="cont">
+                                첫맛부터 직관적이고 상큼한 파인애플을 연상케하는 열대과일류와 샤인머스켓과 같은 청포도의 상큼 달달함의 복합성이 강하게 다가오며<br>중반부분으로 넘어와서는 플로럴함과 딱딱한 복숭아의 블렌드 티와 같은 깔끔한 티라이크함이 옅게 스치면서<br>중후반부 부터는 왜인지 아주 잘익은 주황색 호박을 연상케하는 단맛이 입안 가득 느껴집니다<br>상큼 달달한 과일부터 플로럴한 티 느낌에 이어 갑자기 농익은 주황빛 호박노트라는 부분이 어색하게 다가올순 있으나<br>크게 어색함없이 깔끔하면서 적당히 묵직 잔잔한 느낌으로 부담감없이 깊은 단맛으로 혀를 즐겁게 해주네요
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">Rudbecki_a</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="cafeinfo">카페 정보</button>
+                            <span class="date">2024-12-19</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">유엑스로스터스(UXROASTERS)</p>
+                            <p class="cont">
+                                스페셜티 바리스타, 로스터, 그리고 생두 회사 등 커피 업계의 다양한 분야를 경험하여 깊은 지식과 통찰을 쌓았습니다. <br>
+                                커피에 대한 제 열정은 단순히 맛있는 커피를 만드는 것에 그치지 않고,그 과정을 특별하게 만드는 데에 있습니다. <br>
+                                최고의 품질을 위해 부자재를 엄선된 고급 재료로 직접 제작합니다.
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">스페셜티로스터스</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="coffeelife">커피와 일상</button>
+                            <span class="date">2024-12-22</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">샷 글라스 안닦는 프렌차이즈 카페 후일담......</p>
+                            <p class="cont">
+                                안녕하세요 앞선 글에서 한 프렌차이즈 카페에서 샷 글라스를 닦지 않고 린넨 위에 하늘을 향해 놔두었다가<br>
+                                주문이 들어오면 옆에 있는 샷잔을 그대로 쓰는 것을 보고 의견을 물었던 글을 썼던 커피하는 사람입니다...<br><br>
+                                뭐 바로바로 내리면 상관 없지 않나?라는 의견을 주위에서 듣고나서... 제가 예민한건가 생각했는데<br>
+                                음... 결과적으로 반년이 지난 지금도 여전합니다^^ 개선이 없어요<br><br>
+                                너무 바쁜 상황이 아닌가? 라는 생각을 해볼 수도 있지만 샷 글라스를 닦기 위한건지 모르겠지만 옆에 피쳐린서가 있는데...<br>
+                                샷 글라스를 뒤집어 놓는것도 아니고 안에 에스프레소 잔여물과 크레마가 남아있는 상태로 하늘을 향해 내려놓습니다...<br>
+                                그렇다고 샷 글라스가 2-4개냐? 아니요.... 내려와있는 샷잔만 6개정도는 됐어요....
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">로코로코로코</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="coffeebean">커피 원두</button>
+                            <span class="date">2025-1-3</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">[커피리브레]볼리비아커피를 마십니다.</p>
+                            <p class="cont">
+                                담백한애프터. 한모금할때마다 입안가득 포도쥬스를 마시는것 같습니다. <br>
+                                그중에서도 정말 궁금했던 커피꽃맛은 어떤맛일까? 포도맛,살구맛,아몬드맛을제외한맛이겠죠. <br>
+                                로스로드리게즈농장주님이 산타크루즈, 사마이파타지역에서 재배한 바티안품종의 커피입니다. 가공방식은 워시드를 택했습니다. 볼리비아핀카플로리폰디오바티안 이번주에 방문하신다면 추천 드릴원두입니다.
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">수채화</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="cafeinfo">카페 정보</button>
+                            <span class="date">2025-1-3</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">대구 데우스 커피</p>
+                            <p class="cont">
+                                아인슈페너 크림이 달달하고 <br>
+                                까눌레도 맛있어요! <br>
+                                좁은 계단을 올라 카페로 들어가면 <br>
+                                빵냄새도 나고 선곡도 좋아서 분위기있네요! <br>
+                                (내부 사진을 잊고 못 찍었어요...)
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">솔방울</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <button type="button" class="coffeelife">커피와 일상</button>
+                            <span class="date">2025-1-4</span>
+                        </div>
+                        <div class="post">
+                            <p class="topic">29살 바리스타입니다 진로고민..</p>
+                            <p class="cont">
+                                경력은 길지 않구요 1년정도?<br>
+                                20대초반에 군문제랑 지병때문에 학교도 그만두고<br>
+                                쉬다가 좀 나아져서 바리스타(카페알바) 한지 1년정도 되었습니다.<br><br>
+                                잘은 모르지만 나이가 들수록 바리스타 일을 하기 힘들어진다고 들었는데 (급여문제도 있고)<br>
+                                이쪽 업계에서 일을 하고 싶은 마음은 있는데 어떤 능력을 키우거나 배우면 좋을까요? <br>
+                                가능하다면 커피업계회사나 로스팅업체같은곳에서 일하고 싶은데 어떻게 시작하는게 좋을까요<br>
+                                되는대로 두서없이 질문해봤습니다 ㅠ 가볍게라도 댓글 달아주시면 새겨 듣겠습니다 좋은 밤 되세요
+                            </p>
+                        </div>
+                        <div class="user-info">
+                            <p class="user-name">막장정</p>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href=""><i class="fa-regular fa-pen-to-square"></i></a>
+            </article>
+            <article class="popular-reply">
+                <h3>최신 댓글</h3>
+                <div class="content-group">
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">5cent</p>
+                            <span class="date">1분 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    계신곳에서 가까운곳으로 가세요~ 검색해도 쉽게 찾으실 수 있을거예요
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">SPROGEEKS</p>
+                            <span class="date">10분 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    많은 경우 최종 테크는 그래도 오너 바리스타인것 같아요. 그런 꿈이 있으시다면 나쁘지만은 않은거 같구요!
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">SPROGEEKS</p>
+                            <span class="date">11분 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    이거 한국에 파나요? ㅎㅎ 맛이 궁금하네요.
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">린린이</p>
+                            <span class="date">14분 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    블랙업커피 모모스 제로커피로스터스요
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">bigandsmall</p>
+                            <span class="date">18분 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    선물 받아서 먹었던 오월의 종에서 나오는 슈톨렌, 맛있게 먹었습니다.
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">Clef</p>
+                            <span class="date">32분 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    로스터 열원 비율에 따라 겉과 속 컬러값 차이가 날 수 있습니다. 개인적으론 맛이 우선이라고 봅니다. 컬러값을 알아주는 소비자가 몇이나 될까요...? 겉 속보다는 매 배치간 컬러차이를 줄이는게 더 올바른 방향이지 않나싶어요.(맛이 좋다는 가정하에)
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="info">
+                            <p class="user-name">원세컨드커피</p>
+                            <span class="date">2시간 전</span>
+                        </div>
+                        <div class="content">
+                            <div class="post">
+                                <a href="#" class="cont">
+                                    안전운전하세요 눈이 많이쌓여서 미끄럽네요
+                                </a>
+                            </div>
+                            <div class="user-action">
+                                <div class="like-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dislike" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="like" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                                    <span class="number">37</span>
+                                </div>
+                                <div class="comment-action">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="comment" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg>
+                                    <span class="number">13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>     
+        </div>
+    </section>
+                
+    <section class="rank container">
+        <h2 class="title">침산동 카페 인기 원두</h2>
+        <article class="rank-list">
+            <div class="rank-wrap">
+                <ul class="rank-tabs">
+                    <li class="item on">
+                        <a href="">
+                            <p class="rank-number on">1</p>
+                            <div>
+                                <p class="cafe-name">로비아네</p>
+                                <p class="bean-name">로비아네 블렌딩</p>
+                            </div>
+                        </a>
+                    </li>                        
+                    <li class="item">
+                        <a href="">
+                            <p class="rank-number">2</p>
+                            <div>
+                                <p class="cafe-name">마망까페</p>
+                                <p class="bean-name">에티오피아 예가체프</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <p class="rank-number">3</p>
+                            <div>
+                                <p class="cafe-name">유우커피플레이스</p>
+                                <p class="bean-name">케냐 AA</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <p class="rank-number">4</p>
+                            <div>
+                                <p class="cafe-name">올리버</p>
+                                <p class="bean-name">올리버 다크 블랜드</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="content">
+                        <img src="./images/bean01.jpg" alt="로비아네">
+                        <a href=""></a>
+                    </div>
+                    <div class="content">
+                        <img src="./images/bean03.jpg" alt="마망까페">
+                        <a href=""></a>
+                    </div>
+                    <div class="content show">
+                        <img src="./images/bean08.jpg" alt="유우커피플레이스">
+                        <a href=""></a>
+                    </div>
+                    <div class="content">
+                        <img src="./images/bean05.jpg" alt="올리버">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="more-text">
+                <h3>더 많은 원두가 준비되어 있습니다.</h3>
+                <p>지금 보고 계신 지역의 카페에서 만나볼 수 있는<br>
+                다양한 원두가 궁금하시다면!</p>
+            </div>
+            <div class="common-btn">
+                <a class="more-btn" href="#">
+                    <div class="btn-content">
+                        <span class="btn-text">더 많은 원두 보기</span>
+                        <div class="btn-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+                    <div class="btn-hover"></div>
+                </a>
+            </div>
+        </article>
+    </section>
+    <!-- //main -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer container">
+            <small class="brand">
+                <span class="logo">LOCO</span>
+                <span class="slogan">mad for local coffee and cafe</span>
+            </small>
+            <address class="line1">
+                <span>LOCO 헤드쿼터</span>
+                <span>T. 053-987-1231</span>
+                <span>대구광역시 중구 공평로 88</span>
+                <span>E. loco-coffee@mad-loco.com</span>
+                <span>사업자번호: 111-22-33333</span>
+                <span>개인정보관리책임자 : 대표 김창성</span>
+            </address>
+            <address class="line2">
+                <span>LOCO 교육센터</span>
+                <span>T. 053-3533-3433</span>
+                <span>대구광역시 중구 공평로 88</span>
+            </address>
+            <small class="copy">Copyright© 2024 LOCO All rights reserved.</small>
+        </div>            
+    </footer>
+    <!-- //footer -->
+</body>
+</html>

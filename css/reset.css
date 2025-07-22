@@ -1,0 +1,40 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'S-CoreDream';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+body {
+    overflow-y: overlay;
+    overflow-x: overlay;
+}
+body, button {
+    font-family: "Pretendard Variable", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+address {
+    font-size: 16px;
+    font-style: normal;
+}
